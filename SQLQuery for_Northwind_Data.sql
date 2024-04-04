@@ -362,12 +362,6 @@ Having Count(Customers.CustomerID) >10 ;
 
 
 
-Select *
-From Orders
-
-Select *
-From Customers
-
 ---50
 Select CONCAT (ProductName ,' ','weight is' , QuantityPerUnit ,'and cost is $',ROUND(UnitPrice,0))
 From Products
